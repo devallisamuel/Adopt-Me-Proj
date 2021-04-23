@@ -1,0 +1,13 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "Pet", function () {
+  return Pet;
+});
+var _ = require('');
+var _Default = _parcelHelpers.interopDefault(_);
+const Pet = ({name, animal, breed}) => {
+  return _Default.default.createElement('div', {}, [_Default.default.createElement('h1', {}, name), _Default.default.createElement('h2', {}, animal), _Default.default.createElement('h2', {}, breed)]);
+};
+_c = Pet;
+var _c;
+$RefreshReg$(_c, "Pet");
