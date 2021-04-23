@@ -1,0 +1,26 @@
+{
+  "name": "adopt-app",
+  "version": "1.0.0",
+  "description": "react app",
+  "main": "app.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{js.html}\"--write",
+    "lint": "eslint \"src/**/*.{js,jsx}\"--quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devallisamuel/Adopt-Me-Proj.git"
+  },
+  "author": "alli samuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devallisamuel/Adopt-Me-Proj/issues"
+  },
+  "homepage": "https://github.com/devallisamuel/Adopt-Me-Proj#readme",
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "prettier": "^2.2.1"
+  }
+}
