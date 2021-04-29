@@ -1,0 +1,144 @@
+var helpers = require("../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _frontendmastersPet = require('@frontendmasters/pet');
+  require('');
+  var _jsxFileName = "C:\\Users\\SAMUEL\\Desktop\\adopt app\\src\\searchParams.js", _s = $RefreshSig$();
+  const SearchParams = () => {
+    _s();
+    const [locaton, setlocation] = _react.useState('Ikoyi LAG');
+    const [animal, setAnimal] = _react.useState('dog');
+    const [breed, setBreed] = _react.useState('');
+    const [breeds, setBreeds] = _react.useState([]);
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "search-params",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("form", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("label", {
+        htmlFor: "location",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13,
+          columnNumber: 17
+        }
+      }, "Location", /*#__PURE__*/_reactDefault.default.createElement("input", {
+        id: "location",
+        placeholder: "location",
+        value: locaton,
+        onChange: e => setlocation(e.target.value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15,
+          columnNumber: 21
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("label", {
+        htmlFor: "animal",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 17
+        }
+      }, "Animal", /*#__PURE__*/_reactDefault.default.createElement("select", {
+        value: animal,
+        id: "animal",
+        onChange: e => setAnimal(e.target.value),
+        onBlur: e => setAnimal(e.target.value),
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("option", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 25
+        }
+      }, "All"), _frontendmastersPet.ANIMALS.map(animal => /*#__PURE__*/_reactDefault.default.createElement("option", {
+        key: animal,
+        value: animal,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 25
+        }
+      }, animal)))), /*#__PURE__*/_reactDefault.default.createElement("label", {
+        htmlFor: "breed",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 17
+        }
+      }, "Breed", /*#__PURE__*/_reactDefault.default.createElement("select", {
+        value: breed,
+        id: "breed",
+        onChange: e => setBreed(e.target.value),
+        onBlur: e => setBreed(e.target.value),
+        disabled: breeds.length == 0,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("option", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 25
+        }
+      }, "All"), breeds.map(breedString => /*#__PURE__*/_reactDefault.default.createElement("option", {
+        key: breedString,
+        value: breedString,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 25
+        }
+      }, breed)))), /*#__PURE__*/_reactDefault.default.createElement("button", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 17
+        }
+      }, "Submit")))
+    );
+  };
+  _s(SearchParams, "YJR/ihwctRNK0tJcgCHWZAwnSwo=");
+  _c = SearchParams;
+  exports.default = SearchParams;
+  var _c;
+  $RefreshReg$(_c, "SearchParams");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
